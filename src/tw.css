@@ -530,6 +530,9 @@
   .relative {
     position: relative;
   }
+  .static {
+    position: static;
+  }
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
   }
@@ -699,6 +702,13 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .hover\:cursor-pointer {
+    &:hover {
+      @media (hover: hover) {
+        cursor: pointer;
+      }
+    }
   }
   .hover\:underline {
     &:hover {

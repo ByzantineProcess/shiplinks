@@ -1,0 +1,15 @@
+{
+    "title": "Shiplinks",
+    "description": "A static, configurable website for human-readable info about your project.\nYou're looking at it right now!",
+    "author": "ByzantineProcess",
+    "authorLink": "https://github.com/ByzantineProcess",
+    "timeSpent": "2 hours",
+    "technologies": ["HTML/CSS/JS", "TypeScript", "TailwindCSS"],
+    "banner": "https://cloud-6tez4wybn-hack-club-bot.vercel.app/0image.png",
+    "links": {
+        "github": "https://github.com/ByzantineProcess/shiplinks",
+        "demo": "#"
+    },
+    "titleFont": "Pirata One",
+    "bodyFont": "Roboto Mono"
+}

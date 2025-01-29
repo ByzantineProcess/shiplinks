@@ -28,10 +28,12 @@
             <div class="flex flex-row justify-center items-center">
                 <h3 class="text-white" id="author">a ship by <a href="" id="author-link" class="text-white hover:underline"></a></h3>
             </div>
-            <div class="flex flex-row justify-center items-center mt-6">
-                <h3 class="text-white text-xs" id="shiplink-footnote">shiplink™ by <a href="https://github.com/ByzantineProcess/shiplink" class="text-white hover:underline">ByzantineProcess</a></h3>
+            <div class="flex flex-row justify-center items-center">
+                <h3 class="text-white text-xs hover:underline hover:cursor-pointer" id="markdown" onclick="navigator.clipboard.writeText(generateMarkdown())">copy this page as markdown</h3>
             </div>
-            
+            <div class="flex flex-row justify-center items-center mt-4">
+                <h3 class="text-white text-xs" id="shiplink-footnote">shiplinks™ by <a href="https://github.com/ByzantineProcess/shiplink" class="text-white hover:underline">ByzantineProcess</a></h3>
+            </div>
         </div>
     </div>
 </body>

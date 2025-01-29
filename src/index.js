@@ -1,6 +1,7 @@
 "use strict";
 const urlParams = new URLSearchParams(window.location.search);
 const prj = urlParams.get('prj');
+let prjData;
 fetch("prj/" + prj + ".json")
     .then(response => {
     if (!response.ok) {
@@ -9,6 +10,7 @@ fetch("prj/" + prj + ".json")
     return response.json();
 })
     .then(data => {
+    prjData = data;
     loadProjectDefinition(data);
 });
 function loadProjectDefinition(data) {
@@ -160,5 +162,31 @@ function loadProjectDefinition(data) {
     else {
         console.error('Shiplink footnote element not found');
     }
+    //set font on markdown
+    let markdownObject = document.getElementById('markdown');
+    if (markdownObject) {
+        markdownObject.style.fontFamily = data.bodyFont;
+    }
+    else {
+        console.error('Markdown element not found');
+    }
     console.log(data);
+}
+function generateMarkdown() {
+    let data = prjData;
+    let markdown = "";
+    markdown += `# ${data.title}\n\n`;
+    markdown += `${data.description}\n\n`;
+    markdown += `## Technologies\n\n`;
+    markdown += `${data.technologies.join(', ')}\n\n`;
+    markdown += `## Time Spent\n\n`;
+    markdown += `${data.timeSpent}\n\n`;
+    markdown += `## Links\n\n`;
+    markdown += `Github: [${data.links.github}](${data.links.github})\n\n`;
+    markdown += `Demo: [${data.links.demo}](${data.links.demo})\n\n`;
+    markdown += `Download: [${data.links.download}](${data.links.download})\n\n`;
+    markdown += `## Author\n\n`;
+    markdown += `[${data.author}](${data.authorLink})\n\n`;
+    markdown += `Generated with Shiplink\n\n`;
+    return markdown;
 }

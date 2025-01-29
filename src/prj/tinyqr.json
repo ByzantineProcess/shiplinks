@@ -1,0 +1,16 @@
+{
+    "title": "TinyQR",
+    "description": "A QR code generator that fits inside a QR code.",
+    "author": "ByzantineProcess",
+    "authorLink": "https://github.com/ByzantineProcess",
+    "timeSpent": "11 hours",
+    "technologies": ["C", "C++", "ASM", "Win32"],
+    "banner": "https://cloud-85he862du-hack-club-bot.vercel.app/0image.png",
+    "links": {
+        "github": "https://github.com/ByzantineProcess/TinyQR",
+        "demo": "https://cloud-m82ir0xyt-hack-club-bot.vercel.app/02025-01-22_15-18-07.mp4",
+        "download": "https://github.com/ByzantineProcess/tinyqr/releases/tag/saycheese"
+    },
+    "titleFont": "Roboto Mono",
+    "bodyFont": "Roboto Mono"
+}

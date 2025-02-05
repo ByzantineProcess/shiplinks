@@ -1,0 +1,15 @@
+{
+    "title": "Snakepet - a scrapped hackapet submission",
+    "description": "A snake game, but you don't grow.",
+    "author": "ByzantineProcess",
+    "authorLink": "https://github.com/ByzantineProcess",
+    "timeSpent": "4 hours",
+    "technologies": ["Python", "Pygame", "CircuitPython"],
+    "banner": "https://raw.githubusercontent.com/ByzantineProcess/snakepet/refs/heads/main/408938373-9445068b-147d-4ba0-89ff-cef08761d152.png",
+    "links": {
+        "github": "https://github.com/ByzantineProcess/snakepet",
+        "demo": "https://youtu.be/CptW_zBOzgQ"
+    },
+    "titleFont": "Rubik Dirt",
+    "bodyFont": "Roboto"
+}

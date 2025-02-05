@@ -1,0 +1,15 @@
+{
+    "title": "Llama 3.2 plays GeoGuessr",
+    "description": "Testing Llama 3.2's geography knowledge. It's not bad!\nInspired by DougDoug's video.",
+    "author": "ByzantineProcess",
+    "authorLink": "https://github.com/ByzantineProcess",
+    "timeSpent": "3 hours",
+    "technologies": ["AI/ML", "Python"],
+    "banner": "https://cloud-kgqd6lcjd-hack-club-bot.vercel.app/0image.png",
+    "links": {
+        "github": "https://github.com/ByzantineProcess/llama-geoguessr",
+        "demo": "https://cloud-f4109grp5-hack-club-bot.vercel.app/02025-02-03_17-17-48.mp4"
+    },
+    "titleFont": "Quantico",
+    "bodyFont": "Geo"
+}

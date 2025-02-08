@@ -1,0 +1,15 @@
+{
+    "title": "Quartermaster",
+    "description": "A desktop application for tracking High Seas stats, and staying focused\nwith help from Hackatime.",
+    "author": "ByzantineProcess",
+    "authorLink": "https://github.com/ByzantineProcess",
+    "timeSpent": "6 hours",
+    "technologies": ["HTML/CSS/JS", "Python", "TailwindCSS"],
+    "banner": "https://cloud-43ydbc8et-hack-club-bot.vercel.app/0image.png",
+    "links": {
+        "github": "https://github.com/ByzantineProcess/Quartermaster",
+        "demo": "https://cloud-3ma9ac413-hack-club-bot.vercel.app/0image.png"
+    },
+    "titleFont": "Lexend",
+    "bodyFont": "Lexend"
+}

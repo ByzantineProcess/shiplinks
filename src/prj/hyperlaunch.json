@@ -1,0 +1,16 @@
+{
+    "title": "Hyperlaunch",
+    "description": "An alternative Minecraft launcher faster than the rest.",
+    "author": "byzann",
+    "authorLink": "https://github.com/ByzantineProcess",
+    "timeSpent": "56 hours",
+    "technologies": ["C#", "Godot", "Java"],
+    "banner": "https://cdn.hackclub.com/01a0bfc3-ec84-776b-9b91-70e32f1c7bc1/banner_transparent.png",
+    "links": {
+        "github": "https://github.com/ByzantineProcess/hyperlaunch",
+        "demo": "#",
+        "download": "#"
+    },
+    "titleFont": "Geist Pixel",
+    "bodyFont": "Geist Pixel"
+}

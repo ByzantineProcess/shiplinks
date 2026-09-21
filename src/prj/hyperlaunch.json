@@ -5,11 +5,11 @@
     "authorLink": "https://github.com/ByzantineProcess",
     "timeSpent": "56 hours",
     "technologies": ["C#", "Godot", "Java"],
-    "banner": "https://cdn.hackclub.com/01a0bfc3-ec84-776b-9b91-70e32f1c7bc1/banner_transparent.png",
+    "banner": "https://cdn.hackclub.com/01a0c3bb-db7c-7a7b-a893-28c5328db469/banner_solid.png",
     "links": {
         "github": "https://github.com/ByzantineProcess/hyperlaunch",
-        "demo": "#",
-        "download": "#"
+        "demo": "https://cdn.hackclub.com/01a0c488-4347-7728-8233-54ffa95a3f1b/hyperlaunch_stardance_demo.mp4",
+        "download": "https://github.com/ByzantineProcess/hyperlaunch/releases/tag/v0.1-bugfix"
     },
     "titleFont": "Geist Pixel",
     "bodyFont": "Geist Pixel"
